@@ -1,0 +1,13 @@
+C:\Users\15419\Desktop\Basic_C#_Programs\VariablesAndDataTyles\VariablesAndDataTyles\bin\Debug\netcoreapp3.1\VariablesAndDataTyles.exe
+C:\Users\15419\Desktop\Basic_C#_Programs\VariablesAndDataTyles\VariablesAndDataTyles\bin\Debug\netcoreapp3.1\VariablesAndDataTyles.deps.json
+C:\Users\15419\Desktop\Basic_C#_Programs\VariablesAndDataTyles\VariablesAndDataTyles\bin\Debug\netcoreapp3.1\VariablesAndDataTyles.runtimeconfig.json
+C:\Users\15419\Desktop\Basic_C#_Programs\VariablesAndDataTyles\VariablesAndDataTyles\bin\Debug\netcoreapp3.1\VariablesAndDataTyles.runtimeconfig.dev.json
+C:\Users\15419\Desktop\Basic_C#_Programs\VariablesAndDataTyles\VariablesAndDataTyles\bin\Debug\netcoreapp3.1\VariablesAndDataTyles.dll
+C:\Users\15419\Desktop\Basic_C#_Programs\VariablesAndDataTyles\VariablesAndDataTyles\bin\Debug\netcoreapp3.1\VariablesAndDataTyles.pdb
+C:\Users\15419\Desktop\Basic_C#_Programs\VariablesAndDataTyles\VariablesAndDataTyles\obj\Debug\netcoreapp3.1\VariablesAndDataTyles.csproj.AssemblyReference.cache
+C:\Users\15419\Desktop\Basic_C#_Programs\VariablesAndDataTyles\VariablesAndDataTyles\obj\Debug\netcoreapp3.1\VariablesAndDataTyles.AssemblyInfoInputs.cache
+C:\Users\15419\Desktop\Basic_C#_Programs\VariablesAndDataTyles\VariablesAndDataTyles\obj\Debug\netcoreapp3.1\VariablesAndDataTyles.AssemblyInfo.cs
+C:\Users\15419\Desktop\Basic_C#_Programs\VariablesAndDataTyles\VariablesAndDataTyles\obj\Debug\netcoreapp3.1\VariablesAndDataTyles.csproj.CoreCompileInputs.cache
+C:\Users\15419\Desktop\Basic_C#_Programs\VariablesAndDataTyles\VariablesAndDataTyles\obj\Debug\netcoreapp3.1\VariablesAndDataTyles.dll
+C:\Users\15419\Desktop\Basic_C#_Programs\VariablesAndDataTyles\VariablesAndDataTyles\obj\Debug\netcoreapp3.1\VariablesAndDataTyles.pdb
+C:\Users\15419\Desktop\Basic_C#_Programs\VariablesAndDataTyles\VariablesAndDataTyles\obj\Debug\netcoreapp3.1\VariablesAndDataTyles.genruntimeconfig.cache

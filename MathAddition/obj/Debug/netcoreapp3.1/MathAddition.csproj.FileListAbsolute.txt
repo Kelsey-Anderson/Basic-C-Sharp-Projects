@@ -1,0 +1,13 @@
+C:\Users\15419\Desktop\Basic_C#_Programs\MathAddition\bin\Debug\netcoreapp3.1\MathAddition.exe
+C:\Users\15419\Desktop\Basic_C#_Programs\MathAddition\bin\Debug\netcoreapp3.1\MathAddition.deps.json
+C:\Users\15419\Desktop\Basic_C#_Programs\MathAddition\bin\Debug\netcoreapp3.1\MathAddition.runtimeconfig.json
+C:\Users\15419\Desktop\Basic_C#_Programs\MathAddition\bin\Debug\netcoreapp3.1\MathAddition.runtimeconfig.dev.json
+C:\Users\15419\Desktop\Basic_C#_Programs\MathAddition\bin\Debug\netcoreapp3.1\MathAddition.dll
+C:\Users\15419\Desktop\Basic_C#_Programs\MathAddition\bin\Debug\netcoreapp3.1\MathAddition.pdb
+C:\Users\15419\Desktop\Basic_C#_Programs\MathAddition\obj\Debug\netcoreapp3.1\MathAddition.csproj.AssemblyReference.cache
+C:\Users\15419\Desktop\Basic_C#_Programs\MathAddition\obj\Debug\netcoreapp3.1\MathAddition.AssemblyInfoInputs.cache
+C:\Users\15419\Desktop\Basic_C#_Programs\MathAddition\obj\Debug\netcoreapp3.1\MathAddition.AssemblyInfo.cs
+C:\Users\15419\Desktop\Basic_C#_Programs\MathAddition\obj\Debug\netcoreapp3.1\MathAddition.csproj.CoreCompileInputs.cache
+C:\Users\15419\Desktop\Basic_C#_Programs\MathAddition\obj\Debug\netcoreapp3.1\MathAddition.dll
+C:\Users\15419\Desktop\Basic_C#_Programs\MathAddition\obj\Debug\netcoreapp3.1\MathAddition.pdb
+C:\Users\15419\Desktop\Basic_C#_Programs\MathAddition\obj\Debug\netcoreapp3.1\MathAddition.genruntimeconfig.cache
