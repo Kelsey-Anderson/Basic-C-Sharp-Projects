@@ -1,0 +1,13 @@
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApplication\obj\Debug\netcoreapp3.1\ConsoleApplication.csproj.AssemblyReference.cache
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApplication\obj\Debug\netcoreapp3.1\ConsoleApplication.AssemblyInfoInputs.cache
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApplication\obj\Debug\netcoreapp3.1\ConsoleApplication.AssemblyInfo.cs
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApplication\obj\Debug\netcoreapp3.1\ConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApplication\bin\Debug\netcoreapp3.1\ConsoleApplication.exe
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApplication\bin\Debug\netcoreapp3.1\ConsoleApplication.deps.json
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApplication\bin\Debug\netcoreapp3.1\ConsoleApplication.runtimeconfig.json
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApplication\bin\Debug\netcoreapp3.1\ConsoleApplication.runtimeconfig.dev.json
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApplication\bin\Debug\netcoreapp3.1\ConsoleApplication.dll
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApplication\bin\Debug\netcoreapp3.1\ConsoleApplication.pdb
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApplication\obj\Debug\netcoreapp3.1\ConsoleApplication.dll
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApplication\obj\Debug\netcoreapp3.1\ConsoleApplication.pdb
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ConsoleApplication\obj\Debug\netcoreapp3.1\ConsoleApplication.genruntimeconfig.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\15419\\Desktop\\Basic_C#_Programs\\MathAddition\\MathAddition.csproj": {}
+    "C:\\Users\\15419\\Documents\\GitHub\\Basic-C-Sharp-Projects\\MathAddition\\MathAddition.csproj": {}
   },
   "projects": {
-    "C:\\Users\\15419\\Desktop\\Basic_C#_Programs\\MathAddition\\MathAddition.csproj": {
+    "C:\\Users\\15419\\Documents\\GitHub\\Basic-C-Sharp-Projects\\MathAddition\\MathAddition.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\15419\\Desktop\\Basic_C#_Programs\\MathAddition\\MathAddition.csproj",
+        "projectUniqueName": "C:\\Users\\15419\\Documents\\GitHub\\Basic-C-Sharp-Projects\\MathAddition\\MathAddition.csproj",
         "projectName": "MathAddition",
-        "projectPath": "C:\\Users\\15419\\Desktop\\Basic_C#_Programs\\MathAddition\\MathAddition.csproj",
+        "projectPath": "C:\\Users\\15419\\Documents\\GitHub\\Basic-C-Sharp-Projects\\MathAddition\\MathAddition.csproj",
         "packagesPath": "C:\\Users\\15419\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\15419\\Desktop\\Basic_C#_Programs\\MathAddition\\obj\\",
+        "outputPath": "C:\\Users\\15419\\Documents\\GitHub\\Basic-C-Sharp-Projects\\MathAddition\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
