@@ -103,7 +103,13 @@ namespace MathAddition
             //Console.ReadLine();
 
 
+            int age = 31;
+            bool hasTicket = true;
+            bool hasPassport = true;
 
+            bool canFly = (age >= 18 && hasTicket && hasPassport);
+            Console.WriteLine(canFly);
+            Console.ReadLine();
 
 
 

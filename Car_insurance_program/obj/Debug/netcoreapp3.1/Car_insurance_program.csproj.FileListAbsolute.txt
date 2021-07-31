@@ -1,0 +1,13 @@
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Car_insurance_program\bin\Debug\netcoreapp3.1\Car_insurance_program.exe
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Car_insurance_program\bin\Debug\netcoreapp3.1\Car_insurance_program.deps.json
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Car_insurance_program\bin\Debug\netcoreapp3.1\Car_insurance_program.runtimeconfig.json
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Car_insurance_program\bin\Debug\netcoreapp3.1\Car_insurance_program.runtimeconfig.dev.json
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Car_insurance_program\bin\Debug\netcoreapp3.1\Car_insurance_program.dll
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Car_insurance_program\bin\Debug\netcoreapp3.1\Car_insurance_program.pdb
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Car_insurance_program\obj\Debug\netcoreapp3.1\Car_insurance_program.csproj.AssemblyReference.cache
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Car_insurance_program\obj\Debug\netcoreapp3.1\Car_insurance_program.AssemblyInfoInputs.cache
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Car_insurance_program\obj\Debug\netcoreapp3.1\Car_insurance_program.AssemblyInfo.cs
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Car_insurance_program\obj\Debug\netcoreapp3.1\Car_insurance_program.csproj.CoreCompileInputs.cache
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Car_insurance_program\obj\Debug\netcoreapp3.1\Car_insurance_program.dll
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Car_insurance_program\obj\Debug\netcoreapp3.1\Car_insurance_program.pdb
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Car_insurance_program\obj\Debug\netcoreapp3.1\Car_insurance_program.genruntimeconfig.cache
