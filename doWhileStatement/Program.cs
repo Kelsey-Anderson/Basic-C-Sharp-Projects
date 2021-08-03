@@ -7,6 +7,7 @@ namespace doWhileStatement
         static void Main(string[] args)
         {
             Console.WriteLine("Guess a number");
+
             int number = Convert.ToInt32(Console.ReadLine()); //user inpurt string, converts to int
             bool isGuessed = number == 12; // this is the secret number 
 
@@ -30,7 +31,7 @@ namespace doWhileStatement
                         number = Convert.ToInt32(Console.ReadLine());
                         break;
                     case 12:
-                        Console.WriteLine("You guessed the number 12. That is correct!");
+                        Console.WriteLine("You guessed the number 12. That is correct! Press enter to continue.");
                         isGuessed = true; // changed the bool to true
                         break;
                     default: // use if user input something that wasn't used in a case 
@@ -39,9 +40,26 @@ namespace doWhileStatement
                         number = Convert.ToInt32(Console.ReadLine());
                         break;
                 }
+
             }
             while (!isGuessed); // run while the bool is false
             Console.ReadLine();
+
+            Console.WriteLine("Now press enter until program ends ...");
+
+            int i = 0;
+            while (i < 4)  // my weird while loop. 
+            {
+                Console.WriteLine(i);
+                i++;
+                Console.ReadLine();
+            }
+
+
         }
+
+
+
+
     }
 }
