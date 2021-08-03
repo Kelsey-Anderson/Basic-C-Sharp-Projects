@@ -1,0 +1,13 @@
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ArraySubmission\bin\Debug\netcoreapp3.1\ArraySubmission.exe
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ArraySubmission\bin\Debug\netcoreapp3.1\ArraySubmission.deps.json
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ArraySubmission\bin\Debug\netcoreapp3.1\ArraySubmission.runtimeconfig.json
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ArraySubmission\bin\Debug\netcoreapp3.1\ArraySubmission.runtimeconfig.dev.json
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ArraySubmission\bin\Debug\netcoreapp3.1\ArraySubmission.dll
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ArraySubmission\bin\Debug\netcoreapp3.1\ArraySubmission.pdb
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ArraySubmission\obj\Debug\netcoreapp3.1\ArraySubmission.csproj.AssemblyReference.cache
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ArraySubmission\obj\Debug\netcoreapp3.1\ArraySubmission.AssemblyInfoInputs.cache
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ArraySubmission\obj\Debug\netcoreapp3.1\ArraySubmission.AssemblyInfo.cs
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ArraySubmission\obj\Debug\netcoreapp3.1\ArraySubmission.csproj.CoreCompileInputs.cache
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ArraySubmission\obj\Debug\netcoreapp3.1\ArraySubmission.dll
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ArraySubmission\obj\Debug\netcoreapp3.1\ArraySubmission.pdb
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ArraySubmission\obj\Debug\netcoreapp3.1\ArraySubmission.genruntimeconfig.cache

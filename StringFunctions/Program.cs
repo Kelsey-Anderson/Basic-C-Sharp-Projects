@@ -31,12 +31,28 @@ namespace StringFunctions
             //Console.WriteLine(name);
             //Console.ReadLine();
 
-            StringBuilder sb = new StringBuilder();
+            //StringBuilder sb = new StringBuilder();
 
-            sb.Append("My name is Jesse");
+            //sb.Append("My name is Jesse");
 
-            Console.WriteLine(sb);
-            Console.ReadLine();
+            //Console.WriteLine(sb);
+            //Console.ReadLine();
+
+            //string fname = "Kelsey";
+            //string mname = "Rae";
+            //string lname = "Anderson";
+
+            //string fullName = fname + mname + lname;
+                        
+            //fullName = fullName.ToUpper();
+
+            //Console.WriteLine(fullName);
+            //Console.ReadLine();
+
+
+            
+
+
 
 
         }
