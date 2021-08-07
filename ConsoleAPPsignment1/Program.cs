@@ -82,35 +82,14 @@ using System.Collections.Generic;
 
             Console.WriteLine("Type a name of an animal to search the list.");
             string userInput = Console.ReadLine();
-            int z = animals.IndexOf(userInput);
-
+          
             foreach (string name in animals)
             {
-                if (animals[0] == userInput)
+                if (userInput == name)
                 {
-                    Console.WriteLine(z);
-                    break;
+                    Console.WriteLine(animals.IndexOf(name));
+             
                 }
-                if (animals[1] == userInput)
-                {
-                    Console.WriteLine(z);
-                    break;
-
-                }
-
-                if (animals[2] == userInput)
-                {
-                    Console.WriteLine(z);
-                    break;
-
-                }
-                if (animals[3] == userInput)
-                {
-                    Console.WriteLine(z);
-                    break;
-
-                }
-
                 else
                 {
                     Console.WriteLine("That isn't on the list.");
@@ -127,36 +106,19 @@ using System.Collections.Generic;
             List<string> studentNames = new List<string>() { "Billy", "Billy", "Susie", "Charlie" };
             Console.WriteLine("Type a student's name.");
             string userSearch = Console.ReadLine();
-            int nameIndex = studentNames.IndexOf(userSearch);
-          
-          
+                           
                 foreach (string student in studentNames)
                     {
-                        if (studentNames[0] == userSearch)
+                        if (userSearch == student)
                         {
-                            Console.WriteLine(nameIndex);
-                            continue;
-                        }
-                        if (studentNames[1] == userSearch)
-                        {
-                            Console.WriteLine(nameIndex);
-                            continue;
-                        }
-                        if (studentNames[2] == userSearch)
-                        {
-                            Console.WriteLine(nameIndex);
-                            continue;
-                         }
-                        if (studentNames[3] == userSearch)
-                        {
-                            Console.WriteLine(nameIndex);
-                            continue;
-                        }
+                            Console.WriteLine(studentNames.IndexOf(student));
 
+                        }
+                        
                         else
                         {
                             Console.WriteLine("You selected a name that isn't on the list.");
-                            break;
+
                         }       
                     }
                     Console.ReadLine();
@@ -166,9 +128,7 @@ using System.Collections.Generic;
             //Console App Part Six//
             ///////////////////////
         
-            ////now that I read the requirements of this part of the assignment, 
-            ///I am very sure the previous part four and five I have approached wrong! 
-            ///I need some guidance/direction on where iI'm going wrong  :( 
+      
                 
 
 
