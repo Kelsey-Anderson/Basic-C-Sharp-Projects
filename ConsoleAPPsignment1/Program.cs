@@ -88,7 +88,7 @@ class Program
 
         foreach (string name in animals)
         {
-            if (name.Contains(userInput))
+            if (animals.Contains(userInput))
             {
                 Console.WriteLine("Your input has been found.");
 
