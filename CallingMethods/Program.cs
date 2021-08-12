@@ -31,8 +31,6 @@ namespace CallingMethods
             Console.WriteLine(math.DivideNumbers(math.num1));
             Console.ReadLine();
 
-
-
         }
     }
 }
