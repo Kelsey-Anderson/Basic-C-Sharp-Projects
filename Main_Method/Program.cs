@@ -11,23 +11,22 @@ namespace Main_Method
         static void Main(string[] args)
         {
             NewClass math = new NewClass();
-
-            math.num1 = 20;
-
+            Console.WriteLine("Enter a number.");
+            math.num1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(math.Addition(math.num1));
             Console.ReadLine();
 
+            
             NewClass DecMath = new NewClass();
-
-            DecMath.num2 = 40;
-
+            Console.WriteLine("Enter another number.");
+            DecMath.num2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(DecMath.Addition(DecMath.num2));
             Console.ReadLine();
 
+            
             NewClass strMath = new NewClass();
-
-            strMath.num3 = "seven";
-
+            Console.WriteLine("Now, enter a third number.");
+            strMath.num3 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(strMath.Addition(Convert.ToInt32(strMath.num3)));
             Console.ReadLine();
         }

@@ -10,6 +10,7 @@ namespace Main_Method
         public decimal num2 { get; set; }
         public string num3 { get; set; }
 
+
         public int Addition(int num1)
         {
             return num1 + 10;
@@ -20,7 +21,6 @@ namespace Main_Method
         }
         public string Addition(string num3)
         {
-            
             return num3 + 2;
         }
     }
