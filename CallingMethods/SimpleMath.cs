@@ -10,17 +10,17 @@ namespace CallingMethods
         
         
 
-        public int AddNumbers(int x) 
+        public int AddNumbers() 
         {
-            return num1 + x;
+            return num1 + 10;
         }
-        public int MultNumbers(int x)
+        public int MultNumbers()
         {
-            return num1 * x;
+            return num1 * 10;
         }
-       public int DivideNumbers(int x)
+       public int DivideNumbers()
         {
-            return num1 / x;
+            return num1 / 10;
         }
     }
 }
