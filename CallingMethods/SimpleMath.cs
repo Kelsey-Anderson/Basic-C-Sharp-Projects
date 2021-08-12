@@ -6,15 +6,21 @@ namespace CallingMethods
 {
     public class SimpleMath
     {
-        public SimpleMath() 
+        public int num1 { get; set; }
+        public int num2 { get; set; }
+        
+
+        public int AddNumbers() 
         {
-            AddNumbers(num1 + num2);
-            MultNumbers(num1 * num2);
-            DivideNumbers(num1 / num2);
+           return num1 + num2;
         }
-        public int AddNumbers { get; set; }
-        public int MultNumbers { get; set; }
-        public int DivideNumbers { get; set; }
-       
+        public int MultNumbers()
+        {
+            return num1 * num2;
+        }
+       public int DivideNumbers()
+        {
+            return num1 / num2;
+        }
     }
 }
