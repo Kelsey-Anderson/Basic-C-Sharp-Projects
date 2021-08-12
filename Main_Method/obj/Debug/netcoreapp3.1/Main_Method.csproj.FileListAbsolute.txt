@@ -1,0 +1,13 @@
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method\bin\Debug\netcoreapp3.1\Main_Method.exe
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method\bin\Debug\netcoreapp3.1\Main_Method.deps.json
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method\bin\Debug\netcoreapp3.1\Main_Method.runtimeconfig.json
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method\bin\Debug\netcoreapp3.1\Main_Method.runtimeconfig.dev.json
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method\bin\Debug\netcoreapp3.1\Main_Method.dll
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method\bin\Debug\netcoreapp3.1\Main_Method.pdb
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method\obj\Debug\netcoreapp3.1\Main_Method.csproj.AssemblyReference.cache
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method\obj\Debug\netcoreapp3.1\Main_Method.AssemblyInfoInputs.cache
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method\obj\Debug\netcoreapp3.1\Main_Method.AssemblyInfo.cs
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method\obj\Debug\netcoreapp3.1\Main_Method.csproj.CoreCompileInputs.cache
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method\obj\Debug\netcoreapp3.1\Main_Method.dll
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method\obj\Debug\netcoreapp3.1\Main_Method.pdb
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\Main_Method\obj\Debug\netcoreapp3.1\Main_Method.genruntimeconfig.cache
