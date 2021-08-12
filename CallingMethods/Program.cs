@@ -13,22 +13,22 @@ namespace CallingMethods
         {
             SimpleMath math = new SimpleMath();
 
-            Console.WriteLine("Input number 1: ");
+            Console.WriteLine("Enter a number .. ");
             math.num1 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Input number 2: ");
-            math.num2 = Convert.ToInt32(Console.ReadLine());
+            int x = 10;
+            Console.WriteLine("Your number is " + math.num1 + "...The second number will be 10... ");
+            
 
             Console.WriteLine("Adding those two numbers together ...");
-            Console.WriteLine(math.AddNumbers());
+            Console.WriteLine(math.AddNumbers(x));
             Console.ReadLine();
 
             Console.WriteLine("Multiplying those two numbers together ...");
-            Console.WriteLine(math.MultNumbers());
+            Console.WriteLine(math.MultNumbers(x));
             Console.ReadLine();
 
             Console.WriteLine("Dividing those two numbers ...");
-            Console.WriteLine(math.DivideNumbers());
+            Console.WriteLine(math.DivideNumbers(x));
             Console.ReadLine();
 
 

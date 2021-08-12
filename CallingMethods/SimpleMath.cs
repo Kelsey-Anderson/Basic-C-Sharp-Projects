@@ -7,20 +7,20 @@ namespace CallingMethods
     public class SimpleMath
     {
         public int num1 { get; set; }
-        public int num2 { get; set; }
+        
         
 
-        public int AddNumbers() 
+        public int AddNumbers(int x) 
         {
-           return num1 + num2;
+            return num1 + x;
         }
-        public int MultNumbers()
+        public int MultNumbers(int x)
         {
-            return num1 * num2;
+            return num1 * x;
         }
-       public int DivideNumbers()
+       public int DivideNumbers(int x)
         {
-            return num1 / num2;
+            return num1 / x;
         }
     }
 }
