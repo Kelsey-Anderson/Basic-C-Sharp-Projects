@@ -12,28 +12,29 @@ namespace Main_Method
         {
             NewClass math = new NewClass();
             Console.WriteLine("Enter a number.");
-            math.num1 = Convert.ToInt32(Console.ReadLine());
-            int x = 10;
-            Console.WriteLine("Your number " + math.num1 + " plus ten equals: " );
-            Console.WriteLine(math.Addition(x));
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            
+            Console.WriteLine("Your number " + num1 + " plus ten equals: " );
+            Console.WriteLine(math.Addition(num1));
             Console.ReadLine();
 
             
             NewClass DecMath = new NewClass();
             Console.WriteLine("Enter another number.");
-            DecMath.num2 = Convert.ToInt32(Console.ReadLine());
-            int y = 8;
-            Console.WriteLine("Your number " + DecMath.num2 + " plus eight equals: "  );
-            Console.WriteLine(DecMath.Addition(y));
+
+           decimal num2 = Convert.ToDecimal(Console.ReadLine());
+          
+            Console.WriteLine("Your number " + num2 + " plus eight equals: "  );
+            Console.WriteLine(DecMath.Addition(num2));
             Console.ReadLine();
 
             
             NewClass strMath = new NewClass();
             Console.WriteLine("Now, enter a third number.");
-            strMath.num3 = Console.ReadLine();
-            int z = 2;
-            Console.WriteLine("Your number " + strMath.num3 + " plus two equals: ");
-            Console.WriteLine(strMath.Addition(z));
+            string num3 = Console.ReadLine();
+            
+            Console.WriteLine("Your number " + num3 + " plus two equals: ");
+            Console.WriteLine(strMath.Addition(num3));
             Console.ReadLine();
         }
     }
