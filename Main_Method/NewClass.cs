@@ -19,9 +19,10 @@ namespace Main_Method
         {
             return num2 + 8;
         }
-        public string Addition(string num3)
+        public int Addition(string num3)
         {
-            return num3 + 2;
+            int result = Convert.ToInt32(num3);
+            return result + 2;
         }
     }
 }
