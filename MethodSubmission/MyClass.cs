@@ -6,12 +6,20 @@ namespace MethodSubmission
 {
     public class MyClass
     {
-        public int num1 { get; set; }
-        public int num2 { get; set; }
-
-        public int AddingNums(int num1, int num2)
+        public int AddingNums(int num1, string num2, int d)
         {
-            return num1 + num2;
+            int result1 = num1 + d;
+            int result2 = num1 + Convert.ToInt32(num2);
+
+            if (num2 == "")
+            {
+                return result1;
+            }
+            else
+            {
+                return result2;
+            }
+                
         }
 
 

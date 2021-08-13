@@ -12,20 +12,16 @@ namespace MethodSubmission
         {
             MyClass add = new MyClass();
             Console.WriteLine("Enter your first number.");
-            add.num1 = Convert.ToInt32(Console.ReadLine());
+            int num1 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Optional: Enter a second number (or, just press ENTER to use the default.)");
-            add.num2 = Convert.ToInt32(Console.ReadLine());
+            string num2 = Console.ReadLine();
 
-            int defaultNUM = 0;
+            int d = 10;
 
-             MyClass optional(MyClass add, out int defaultNUM, int opt = 1)
-            {
-
-            }
-        
-
-
+            Console.WriteLine("Adding together...");
+            Console.WriteLine(add.AddingNums(num1, num2, d));
+            Console.ReadLine();
 
 
         }
