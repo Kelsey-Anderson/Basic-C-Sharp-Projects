@@ -13,16 +13,17 @@ namespace Main_Method
 
         public int Addition(int num1)
         {
-            return num1 + 10;
+            return num1 + x;
         }
-        public decimal Addition(decimal num2)
+        public int Addition(decimal num2)
         {
-            return num2 + 8;
+            int sum = Convert.ToInt32(num2);
+            return sum + y;
         }
         public int Addition(string num3)
         {
             int result = Convert.ToInt32(num3);
-            return result + 2;
+            return result + z;
         }
     }
 }

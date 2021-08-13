@@ -13,24 +13,27 @@ namespace Main_Method
             NewClass math = new NewClass();
             Console.WriteLine("Enter a number.");
             math.num1 = Convert.ToInt32(Console.ReadLine());
+            int x = 10;
             Console.WriteLine("Your number " + math.num1 + " plus ten equals: " );
-            Console.WriteLine(math.Addition(math.num1));
+            Console.WriteLine(math.Addition(x));
             Console.ReadLine();
 
             
             NewClass DecMath = new NewClass();
             Console.WriteLine("Enter another number.");
             DecMath.num2 = Convert.ToInt32(Console.ReadLine());
+            int y = 8;
             Console.WriteLine("Your number " + DecMath.num2 + " plus eight equals: "  );
-            Console.WriteLine(DecMath.Addition(DecMath.num2));
+            Console.WriteLine(DecMath.Addition(y));
             Console.ReadLine();
 
             
             NewClass strMath = new NewClass();
             Console.WriteLine("Now, enter a third number.");
             strMath.num3 = Console.ReadLine();
+            int z = 2;
             Console.WriteLine("Your number " + strMath.num3 + " plus two equals: ");
-            Console.WriteLine(strMath.Addition(strMath.num3));
+            Console.WriteLine(strMath.Addition(z));
             Console.ReadLine();
         }
     }
