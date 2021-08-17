@@ -7,8 +7,9 @@ namespace MethodSubmission
     public class MyClass
     {
 
-        public int AddingNums(int num1, int num2)
+        public int AddingNums(int num1, int num2 = 10)
         {
+            
             return num1 + num2; 
         }
        

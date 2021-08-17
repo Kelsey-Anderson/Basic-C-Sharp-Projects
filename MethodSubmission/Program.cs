@@ -16,28 +16,20 @@ namespace MethodSubmission
             Console.WriteLine("Enter your first number.");
             int num1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Optional: Enter a second number (or, just press ENTER to use the default.)");
-            int num2 = Convert.ToInt32(Console.ReadLine());
+            
+            try
+            {
+                Console.WriteLine("Optional: Enter a second number (or, just press ENTER to use the default.)");
+                int num2 = Convert.ToInt32(Console.ReadLine());
 
-            add = AddingNums(add, 10); 
-
-            Console.WriteLine("Adding together...");
-
-
-            public static MyClass AddingNums(MyClass num2, int d = 10);
-
-                  
-                if (num2 > 0)
-                {
-                    
-                    Console.WriteLine(add.AddingNums(num1, num2));
-                }
-                if (num2 < 1)
-                {
-                
-                Console.WriteLine(AddingNums(add));
-                }
-
+                Console.WriteLine("Adding together...");
+                Console.WriteLine(add.AddingNums(num1, num2));
+            }
+            catch 
+            { 
+                Console.WriteLine("The default number is 10 \n Adding ....");
+                Console.WriteLine(add.AddingNums(num1));
+            }
 
             Console.ReadLine();
 
