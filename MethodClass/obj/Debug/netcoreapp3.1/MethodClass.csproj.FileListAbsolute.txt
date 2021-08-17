@@ -1,0 +1,4 @@
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\MethodClass\obj\Debug\netcoreapp3.1\MethodClass.csproj.AssemblyReference.cache
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\MethodClass\obj\Debug\netcoreapp3.1\MethodClass.AssemblyInfoInputs.cache
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\MethodClass\obj\Debug\netcoreapp3.1\MethodClass.AssemblyInfo.cs
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\MethodClass\obj\Debug\netcoreapp3.1\MethodClass.csproj.CoreCompileInputs.cache
