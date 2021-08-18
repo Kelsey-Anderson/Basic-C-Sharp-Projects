@@ -11,7 +11,7 @@ namespace MethodClass
         static void Main(string[] args)
         {
             MyClass math = new MyClass(); // instantiate the class
-            int result; // declaring this variable so the num1 math works?
+          
 
             Console.WriteLine("Enter your first number."); // user input 
             int num1 = Convert.ToInt32(Console.ReadLine());
@@ -20,7 +20,10 @@ namespace MethodClass
             int num2 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("The method will multiply the first number by itself \nand displays the second number.");
-            Console.WriteLine(math.MultMath(num1, num2)); //call method, passing in the user input numbers but there's an error??
+
+
+            Console.WriteLine(math.num1); //call method
+            Console.WriteLine(math.num2);
 
             Console.ReadLine();
 

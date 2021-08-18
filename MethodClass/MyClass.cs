@@ -6,13 +6,15 @@ namespace MethodClass
 {
     public class MyClass
     {
-        public static void  MultMath(int num1, int num2) //void method that takes 2 int parameters ... 
-        {
-            //return num1 + num1;  <--it doesn't let me use this?
+        public int num1 { get; set; }
+        public int num2 { get; set; }
 
-           int result = num1 * num1; // math function on the first int parameter ... I don't think this is right... ?
+        public void  MultiMath(int num1, int num2) //void method that takes 2 int parameters ... 
+        {
+            int result = num1 + 10;// math on the first int parameter ... 
+            Console.WriteLine(result); 
             Console.WriteLine(num2); // display the second int parameter
-            Console.ReadLine();
-        }
+
     }
+}
 }
