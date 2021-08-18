@@ -7,7 +7,7 @@ namespace MethodClass
     public class MyClass
     {
         public int num1 { get; set; }
-        public int num2 { get; set; }
+
 
         public void  MultiMath(int num1, int num2) //void method that takes 2 int parameters ... 
         {

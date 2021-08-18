@@ -22,8 +22,8 @@ namespace MethodClass
             Console.WriteLine("The method will multiply the first number by itself \nand displays the second number.");
 
 
-            Console.WriteLine(math.num1); //call method
-            Console.WriteLine(math.num2);
+            math.MultiMath(num1, num2); //call method
+
 
             Console.ReadLine();
 
