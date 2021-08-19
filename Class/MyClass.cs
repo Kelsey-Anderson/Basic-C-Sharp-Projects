@@ -13,16 +13,22 @@ namespace Class
             Console.WriteLine(result);
 
         }
-
        
         public void Addition(out int result2) 
         {
             int i = 5;
             result2 = i + i;
-            Console.WriteLine( result2);
-            Console.ReadLine();
+            Console.WriteLine(result2);
+    
+        }
+
+        public void Addition(int num2, int num3) // overloaded method .. ?
+        {
+
+            Console.WriteLine("Number " + num2 + " plus " + num3 + " equals: " + (num2 + num3));
 
         }
+
 
     }
 }
