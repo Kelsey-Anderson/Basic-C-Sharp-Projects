@@ -11,6 +11,13 @@ namespace AbstractClass
             employee.SayName(); //calling the method on the object.
             Console.ReadLine();
 
+
+            IQuittable obj = new Employee() { firstName = "Sample", lastName = "Student" }; //polymorphism - create obj of type IQuittable
+            obj.Quit(); // call the Quit method
+            Console.ReadLine();
+         }   
+        
         }
+   
     }
-}
+
