@@ -19,18 +19,28 @@ namespace TwentyOne
             //game.Play(); // calling the play method of the twentyone game object
             //Console.ReadLine();
 
-            Deck deck = new Deck();  // creating an object "deck" of deck
 
-            deck.Shuffle(3); // callling the method of shuffle
+            // polymorphism .... one object (TwentyOneGame) magically morphs into hirger order object Game
+            //List<Game> games = new List<Game>();
+            //TwentyOneGame game = new TwentyOneGame(); 
+            //games.Add(game);
 
 
-            foreach (Card card in deck.Cards)
-            {
-                Console.WriteLine(card.Face + " of " + card.Suit);
-            }
-            Console.WriteLine(deck.Cards.Count);
-
+            TwentyOneGame game = new TwentyOneGame();
+            game.Players = new List<string>() { "Jesse", "Billy", "Bob" };//instantiate this list with names
+            game.ListPlayers();
             Console.ReadLine();
+
+            //Deck deck = new Deck();  // creating an object "deck" of deck
+            //deck.Shuffle(3); // callling the method of shuffle
+
+            //foreach (Card card in deck.Cards)
+            //{
+            //    Console.WriteLine(card.Face + " of " + card.Suit);
+            //}
+            //Console.WriteLine(deck.Cards.Count);
+
+            //Console.ReadLine();
         }
 
        
