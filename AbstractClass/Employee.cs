@@ -17,5 +17,18 @@ namespace AbstractClass
            
         }
 
+        //adding overloaded operator...
+
+        public static Employee operator == (Employee nameOne, Employee nameTwo)
+        {
+            return nameOne == nameTwo; 
+            
+        }
+        public static Employee operator != (Employee nameOne, Employee nameTwo)
+        {
+            return nameOne != nameTwo;
+            
+        }
+        
     }
 }

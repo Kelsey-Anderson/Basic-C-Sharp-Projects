@@ -6,7 +6,7 @@ namespace TwentyOne
 {
     public abstract class Game // abstract class can never be instantiated, never an object, only inherited from. TEMPLATE.
     {
-        public List<string> Players { get; set; } //property
+        public List<Player> Players { get; set; } //property
         public string Name { get; set; }
         public string Dealer { get; set; }
 
@@ -14,9 +14,9 @@ namespace TwentyOne
         
         public virtual void ListPlayers() // Virtual keyword inside method class, inherited method, DOES have implementation but has ability to override it.
         {
-            foreach(string player in Players)
+            foreach(Player player in Players)
             {
-                Console.WriteLine(player);
+                Console.WriteLine(player.Name);
 
             }
         }

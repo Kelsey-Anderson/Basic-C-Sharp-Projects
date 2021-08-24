@@ -26,21 +26,30 @@ namespace TwentyOne
             //games.Add(game);
 
 
-            TwentyOneGame game = new TwentyOneGame();
-            game.Players = new List<string>() { "Jesse", "Billy", "Bob" };//instantiate this list with names
-            game.ListPlayers();
-            Console.ReadLine();
-
-            //Deck deck = new Deck();  // creating an object "deck" of deck
-            //deck.Shuffle(3); // callling the method of shuffle
-
-            //foreach (Card card in deck.Cards)
-            //{
-            //    Console.WriteLine(card.Face + " of " + card.Suit);
-            //}
-            //Console.WriteLine(deck.Cards.Count);
-
+            //TwentyOneGame game = new TwentyOneGame();
+            //game.Players = new List<Player>() { "Jesse", "Billy", "Bob" };//instantiate this list with names
+            //game.ListPlayers();
             //Console.ReadLine();
+
+            Game game = new TwentyOneGame();
+            game.Players = new List<Player>(); // instantiate list that's inherited from "GAME" class. must instantiate before we can add to the list
+            Player player = new Player();
+            player.Name = "Jesse";
+            game = game + player; // this is kind of like a method, it returns a game.
+            //shorthand way.... game += player;
+            game = game - player;
+            //shorthand way .... game -= player;
+
+            Deck deck = new Deck();  // creating an object "deck" of deck
+            deck.Shuffle(3); // callling the method of shuffle
+
+            foreach (Card card in deck.Cards)
+            {
+                Console.WriteLine(card.Face + " of " + card.Suit);
+            }
+            Console.WriteLine(deck.Cards.Count);
+
+            Console.ReadLine();
         }
 
        
