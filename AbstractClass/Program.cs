@@ -17,19 +17,23 @@ namespace AbstractClass
             Console.ReadLine();
 
 
-            //instantiating 2 employee objects, using ids ..
-            Employee id100 = new Employee() { firstName = "Kelsey", lastName = "Student" };
-            Employee id200 = new Employee() { firstName = "Billy", lastName = "Student" };
 
-            if (id100.lastName == id200.lastName) // do they have same last name?
+            Employee emp1 = new Employee(); //instantiate Employee objects
+            Employee emp2 = new Employee();
+ 
+
+            if (emp1.ID == emp2.ID)
             {
-                Console.WriteLine("Kelsey and Billy have the same last name, " + id100.lastName);
-                
+                Console.WriteLine("These are the same ID");
+            }
+            else if (emp1.ID != emp2.ID)
+            {
+                Console.WriteLine("These are two different IDs");
             }
             Console.ReadLine();
 
-
-         }   
+            
+        }   
         
         }
    

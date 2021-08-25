@@ -17,16 +17,22 @@ namespace AbstractClass
            
         }
 
+    //creating employee property ID
+        public int ID { get; set; } 
+
+
+
         //adding overloaded operator...
 
-        public static Employee operator == (Employee nameOne, Employee nameTwo)
+        public static Employee operator == (Employee emp1, Employee emp2)
         {
-            return nameOne == nameTwo; 
+            
+            return emp1.ID == emp2.ID; 
             
         }
-        public static Employee operator != (Employee nameOne, Employee nameTwo)
+        public static Employee operator != (Employee emp1, Employee emp2)
         {
-            return nameOne != nameTwo;
+            return emp1.ID != emp2.ID;
             
         }
         
