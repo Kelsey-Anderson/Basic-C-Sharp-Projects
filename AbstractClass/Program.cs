@@ -18,8 +18,8 @@ namespace AbstractClass
 
 
 
-            Employee emp1 = new Employee(); //instantiate Employee objects
-            Employee emp2 = new Employee();
+            Employee emp1 = new Employee() { ID = 1 };//instantiate Employee objects
+            Employee emp2 = new Employee() { ID = 2 };
  
 
             if (emp1 == emp2)
