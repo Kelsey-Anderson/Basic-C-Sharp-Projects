@@ -24,18 +24,18 @@ namespace AbstractClass
 
             if (emp1 == emp2)
             {
-            Console.WriteLine("These are the same ID");
+                Console.WriteLine("These are the same ID");
             }
             else if (emp1 != emp2)
             {
-            Console.WriteLine("These are two different IDs");
+                Console.WriteLine("These are two different IDs");
             }
-            Console.ReadLine();
+                Console.ReadLine();
 
             
-            }   
+        }   
         
-            }
+    }
    
-            }
+}
 

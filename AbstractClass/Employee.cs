@@ -24,13 +24,13 @@ namespace AbstractClass
 
         //adding overloaded operator...
 
-        public static Employee operator == (Employee emp1, Employee emp2)
+        public static bool operator == (Employee emp1, Employee emp2)
         {
             
             return emp1.ID == emp2.ID; 
             
         }
-        public static Employee operator != (Employee emp1, Employee emp2)
+        public static bool operator != (Employee emp1, Employee emp2)
         {
             return emp1.ID != emp2.ID;
             
