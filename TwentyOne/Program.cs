@@ -31,14 +31,18 @@ namespace TwentyOne
             //game.ListPlayers();
             //Console.ReadLine();
 
-            Game game = new TwentyOneGame();
-            game.Players = new List<Player>(); // instantiate list that's inherited from "GAME" class. must instantiate before we can add to the list
-            Player player = new Player();
-            player.Name = "Jesse";
-            game = game + player; // this is kind of like a method, it returns a game.
-            //shorthand way.... game += player;
-            game = game - player;
-            //shorthand way .... game -= player;
+            //Game game = new TwentyOneGame();
+            //game.Players = new List<Player>(); // instantiate list that's inherited from "GAME" class. must instantiate before we can add to the list
+            //Player player = new Player();
+            //player.Name = "Jesse";
+            //game = game + player; // this is kind of like a method, it returns a game.
+            ////shorthand way.... game += player;
+            //game = game - player;
+            ////shorthand way .... game -= player;
+
+
+            //Player<Card> player = new Player<Card>(); // creating player object, pass in data type we would want the hand to hold
+            //player.Hand = new List<Card>();
 
             Deck deck = new Deck();  // creating an object "deck" of deck
             deck.Shuffle(3); // callling the method of shuffle
@@ -52,7 +56,6 @@ namespace TwentyOne
             Console.ReadLine();
         }
 
-       
 
         //public static Deck Shuffle(Deck deck, int times)
         //{

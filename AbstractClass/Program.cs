@@ -22,11 +22,11 @@ namespace AbstractClass
             Employee emp2 = new Employee() { ID = 2 };
  
 
-            if (emp1 == emp2)
+            if (emp1.ID == emp2.ID)
             {
                 Console.WriteLine("These are the same ID");
             }
-            else if (emp1 != emp2)
+            else if (emp1.ID != emp2.ID)
             {
                 Console.WriteLine("These are two different IDs");
             }
