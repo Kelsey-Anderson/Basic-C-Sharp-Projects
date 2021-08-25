@@ -22,20 +22,20 @@ namespace AbstractClass
             Employee emp2 = new Employee();
  
 
-            if (emp1.ID == emp2.ID)
+            if (emp1 == emp2)
             {
-                Console.WriteLine("These are the same ID");
+            Console.WriteLine("These are the same ID");
             }
-            else if (emp1.ID != emp2.ID)
+            else if (emp1 != emp2)
             {
-                Console.WriteLine("These are two different IDs");
+            Console.WriteLine("These are two different IDs");
             }
             Console.ReadLine();
 
             
-        }   
+            }   
         
-        }
+            }
    
-    }
+            }
 
