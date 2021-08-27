@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace AbstractClass
 {
@@ -32,7 +33,15 @@ namespace AbstractClass
             }
                 Console.ReadLine();
 
-            
+
+            //instantiate generic list with string type:
+            Employee<string> obj1 = new Employee<string>() 
+                      
+
+            Employee<int> obj2 = new Employee<int>();
+
+
+
         }   
         
     }

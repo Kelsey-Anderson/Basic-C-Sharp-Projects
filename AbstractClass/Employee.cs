@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AbstractClass
 {
-    public class Employee : Person, IQuittable // employee inherits from person class
+    public class Employee<T> : Person, IQuittable // employee inherits from person class // <T> is generic type parameter
     {
         public override void SayName() // implement method using override keyword
         {
@@ -20,6 +20,8 @@ namespace AbstractClass
     //creating employee property ID
         public int ID { get; set; } 
 
+        //generic list property
+        public List<T> Things { get; set; }
 
 
         //adding overloaded operator...

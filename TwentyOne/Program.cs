@@ -44,6 +44,12 @@ namespace TwentyOne
             //Player<Card> player = new Player<Card>(); // creating player object, pass in data type we would want the hand to hold
             //player.Hand = new List<Card>();
 
+            //practicing ENUMs
+            //Card card = new Card();
+            //card.Suit = Suit.Clubs;
+            //int underlyingValue = (int)Suit.Diamonds; // casted suit.diamonds to an integer //could also use Convert.ToInt32(Suit.Diamonds);
+            //Console.WriteLine(underlyingValue);
+
             Deck deck = new Deck();  // creating an object "deck" of deck
             deck.Shuffle(3); // callling the method of shuffle
 
@@ -57,6 +63,7 @@ namespace TwentyOne
         }
 
 
+
         //public static Deck Shuffle(Deck deck, int times)
         //{
         //    for (int i = 0; i < times; i++)
@@ -64,8 +71,9 @@ namespace TwentyOne
         //        deck = Shuffle(deck);
         //    }
         //    return deck;
-        //}
     }
+    
 }
+
     
 
