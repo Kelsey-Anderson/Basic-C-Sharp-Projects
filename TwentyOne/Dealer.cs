@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
+using System.IO;
 
 namespace TwentyOne
 {
@@ -14,7 +16,16 @@ namespace TwentyOne
         public void Deal(List<Card> Hand)
         {
             Hand.Add(Deck.Cards.First());//grab first card and add to hand
-            Console.WriteLine(Deck.Cards.First().ToString() + "\n");//print which card was dealt to the console
+            string card = string.Format(Deck.Cards.First().ToString() + "\n"); //logging each card
+            Console.WriteLine(card);//print which card was dealt to the console
+
+            //cleans up log
+            using (StreamWriter file = new StreamWriter(@"C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\TwentyOne\log.txt", true))
+            {
+                file.WriteLine(DateTime.Now); //property that gives the exact datetime object of this moment
+                file.WriteLine(card);
+            }
+
             Deck.Cards.RemoveAt(0);//index of what we want to remove ...the first one is 0
 
         }

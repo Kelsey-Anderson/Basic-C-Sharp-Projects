@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TwentyOne
 {
-    public class Deck    
+    public class Deck
     {
         public Deck() // constructor that assigns values .. must be at the top 
         {
@@ -12,7 +12,7 @@ namespace TwentyOne
 
             for (int i = 0; i < 13; i++)
             {
-                for (int j = 0; j< 4; j++)//nested for loop
+                for (int j = 0; j < 4; j++)//nested for loop
                 {
                     Card card = new Card();
                     card.Face = (Face)i; //i is an int, we are casting Face (string) to int
@@ -26,10 +26,10 @@ namespace TwentyOne
 
         public void Shuffle(int times = 1) // Shuffle method (// class method below) - has optional parameter with default value 
         {
-           
+
             for (int i = 0; i < times; i++)
             {
-               
+
                 List<Card> TempList = new List<Card>();
                 Random random = new Random();
 
@@ -40,11 +40,9 @@ namespace TwentyOne
                     Cards.RemoveAt(randomIndex);
                 }
                 this.Cards = TempList; // this means it is refering to itself. not required.
+
             }
-
-
         }
-
-
     }
 }
+

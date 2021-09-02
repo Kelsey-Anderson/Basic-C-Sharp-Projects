@@ -1,0 +1,12 @@
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DateTimeSubmission\bin\Debug\netcoreapp3.1\DateTimeSubmission.exe
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DateTimeSubmission\bin\Debug\netcoreapp3.1\DateTimeSubmission.deps.json
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DateTimeSubmission\bin\Debug\netcoreapp3.1\DateTimeSubmission.runtimeconfig.json
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DateTimeSubmission\bin\Debug\netcoreapp3.1\DateTimeSubmission.runtimeconfig.dev.json
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DateTimeSubmission\bin\Debug\netcoreapp3.1\DateTimeSubmission.dll
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DateTimeSubmission\bin\Debug\netcoreapp3.1\DateTimeSubmission.pdb
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DateTimeSubmission\obj\Debug\netcoreapp3.1\DateTimeSubmission.AssemblyInfoInputs.cache
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DateTimeSubmission\obj\Debug\netcoreapp3.1\DateTimeSubmission.AssemblyInfo.cs
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DateTimeSubmission\obj\Debug\netcoreapp3.1\DateTimeSubmission.csproj.CoreCompileInputs.cache
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DateTimeSubmission\obj\Debug\netcoreapp3.1\DateTimeSubmission.dll
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DateTimeSubmission\obj\Debug\netcoreapp3.1\DateTimeSubmission.pdb
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DateTimeSubmission\obj\Debug\netcoreapp3.1\DateTimeSubmission.genruntimeconfig.cache

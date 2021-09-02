@@ -1,18 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace TwentyOne
 {
     public struct Card
     {
-        //public Card() // constructor method ... is function ... always name of the class
-        //{
-        //    Suit = "Spades";
-        //        Face = "Two";
-        //}
         public Suit Suit { get; set; } //creating a proptery for the class
         public Face Face { get; set; }
+
+        public override string ToString()
+            {
+                return string.Format("{0} of {1}", Face, Suit);
+            }
+        }
     }
     public enum Suit // underlying value is assigned in order [indices]
     {
@@ -36,6 +39,6 @@ namespace TwentyOne
         Queen,
         King,
         Ace
-        
+
     }
-}
+
