@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TwentyOne
+namespace Casino
 {
     public abstract class Game // abstract class can never be instantiated, never an object, only inherited from. TEMPLATE.
     {
