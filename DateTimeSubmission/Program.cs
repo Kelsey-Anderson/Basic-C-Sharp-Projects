@@ -18,9 +18,9 @@ namespace DateTimeSubmission
             Console.WriteLine("Please enter a number");//prompt user
             int x = Convert.ToInt32(Console.ReadLine()); //user input convert to int
 
-            TimeSpan later = DateTime.Parse(current) + x;
+            current = current.AddHours(x); //re-assigning value of "current"
 
-            Console.WriteLine("In {0} hours, it will be {1}", x, later);
+            Console.WriteLine("In {0} hours, it will be {1}", x, current);
             Console.ReadLine();
 
 

@@ -10,3 +10,4 @@ C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DateTimeSubmission\obj\De
 C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DateTimeSubmission\obj\Debug\netcoreapp3.1\DateTimeSubmission.dll
 C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DateTimeSubmission\obj\Debug\netcoreapp3.1\DateTimeSubmission.pdb
 C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DateTimeSubmission\obj\Debug\netcoreapp3.1\DateTimeSubmission.genruntimeconfig.cache
+C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DateTimeSubmission\obj\Debug\netcoreapp3.1\DateTimeSubmission.csproj.AssemblyReference.cache
