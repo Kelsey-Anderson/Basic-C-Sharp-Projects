@@ -13,21 +13,30 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            const string casinoName = "Grand Hotel and Casino";
+            //var newPlayer = new Player("Jesse"); //constructor chaining 
 
-          
-            Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.");
+            Console.WriteLine("Welcome to the {0}. Let's start by telling me your name.", casinoName);
             string playerName = Console.ReadLine();
             Console.WriteLine("And how much money did you bring today?");
             int bank = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Hello, {0}. Would you like to join a game of 21 right now?", playerName);
 
             //string answer = Console.ReadLine().ToLower(); //makes their answer lowercase
-            Console.WriteLine(Console.ReadLine());
+            Console.ReadLine().ToLower();
 
             string answer = "yes";
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya") //check for variety of answers 
             {
                 Player player = new Player(playerName, bank); //create a new player object .. initialize him
+                player.Id = Guid.NewGuid();
+
+                using (StreamWriter file = new StreamWriter(@"C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\TwentyOne.v.2\log.txt", true))
+                {
+                    file.WriteLine(player.Id); 
+                    
+                }
+
                 Game game = new TwentyOneGame(); //polymorphism
                 game += player; //adding player to the game
                 player.isActivelyPlaying = true;
