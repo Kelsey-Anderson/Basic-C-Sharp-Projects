@@ -50,6 +50,46 @@ namespace CarInsurance.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Table table)
         {
+            var DateOfBirth = table.DateOfBirth;
+            int age = DateTime.Today.Year - DateOfBirth.Year;
+            int CarYear = table.CarYear;
+            string CarMake = table.CarMake;
+            string CarModel = table.CarModel;
+            int tickets = table.SpeedingTickets;
+            bool DUI = table.DUI;
+            bool CoverageType = table.CoverageType;
+
+            int baseQuote = 50;
+
+            if (age  < 18)
+            { baseQuote = baseQuote + 100; }
+            if (age > 19 || age < 25)
+                    { baseQuote = baseQuote + 50; }
+            if (age > 25)
+            { baseQuote = baseQuote + 25; }
+
+            if (CarYear < 2000)
+            { baseQuote = baseQuote + 25; }
+            if (CarYear > 2000)
+            { baseQuote = baseQuote + 25; }
+
+            if (CarMake == "Porsche")
+            { baseQuote = baseQuote + 25; }
+            if (CarModel == "911 Carrera")
+            { baseQuote = baseQuote + 25; }
+
+            tickets = tickets * 10;
+
+            baseQuote = baseQuote + tickets;
+
+            if (DUI == true)
+            { baseQuote = (int)(baseQuote * 1.25); }
+
+
+            if (CoverageType == true)
+            { baseQuote = (int)(baseQuote * 1.50); }
+
+
             if (ModelState.IsValid)
             {
                 db.Tables.Add(table);
@@ -126,43 +166,9 @@ namespace CarInsurance.Controllers
             base.Dispose(disposing);
         }
 
-        public ActionResult Quote()
-        {
-            int baseQuote = 50;
-
-            if ((DateTime.Now - DateOfBirth) < 18) 
-	            { baseQuote = baseQuote + 100; }
-            if ((DateTime.Now - DateOfBirth) >  19) || (DateTime.Now - DateOfBirth) < 25)
-	            { baseQuote = baseQuote + 50; }
-            if (DateOfBirth > 25)
-	            { baseQuote = baseQuote + 25; }
 
 
-            if (CarYear < 2000)
-                { baseQuote = baseQuote + 25; }
-            if (CarYear > 2000)
-                { baseQuote = baseQuote + 25; }
 
-
-            if (CarMake == "Porsche")
-                { baseQuote = baseQuote + 25; }
-            if (CarModel == "911 Carrera")
-                { baseQuote = baseQuote + 25; }
-
-            int tickets = SpeedingTickets * 10;
-
-            baseQuote = baseQuote + tickets;
-
-            if (DUI == true)
-                { baseQuote = baseQuote * 1.25; }
-
-
-            if (CoverageType == true)
-                { baseQuote = baseQuote * 1.50; }
-
-          
-
-        }
 
 
     }
