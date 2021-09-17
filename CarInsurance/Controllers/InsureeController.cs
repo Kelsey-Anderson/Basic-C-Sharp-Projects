@@ -51,43 +51,42 @@ namespace CarInsurance.Controllers
         public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Table table)
         {
             var DateOfBirth = table.DateOfBirth;
-            int age = DateTime.Today.Year - DateOfBirth.Year;
-            int CarYear = table.CarYear;
-            string CarMake = table.CarMake;
-            string CarModel = table.CarModel;
+            
+          
             int tickets = table.SpeedingTickets;
-            bool DUI = table.DUI;
-            bool CoverageType = table.CoverageType;
+            
 
-            int baseQuote = 50;
+            table.Quote = 50;
+            DateTime current = DateTime.Now;
+            int age = current.Year - table.DateOfBirth.Year;
 
             if (age  < 18)
-            { baseQuote = baseQuote + 100; }
+            { table.Quote = table.Quote + 100; }
             if (age > 19 || age < 25)
-                    { baseQuote = baseQuote + 50; }
+                    { table.Quote += 50; }
             if (age > 25)
-            { baseQuote = baseQuote + 25; }
+            { table.Quote += 25; }
 
-            if (CarYear < 2000)
-            { baseQuote = baseQuote + 25; }
-            if (CarYear > 2000)
-            { baseQuote = baseQuote + 25; }
+            if (table.CarYear < 2000)
+            { table.Quote = table.Quote + 25; }
+            if (table.CarYear > 2000)
+            { table.Quote += 25; }
 
-            if (CarMake == "Porsche")
-            { baseQuote = baseQuote + 25; }
-            if (CarModel == "911 Carrera")
-            { baseQuote = baseQuote + 25; }
+            if (table.CarMake == "Porsche")
+            { table.Quote += 25; }
+            if (table.CarModel == "911 Carrera")
+            { table.Quote += 25; }
 
             tickets = tickets * 10;
 
-            baseQuote = baseQuote + tickets;
+            table.Quote += tickets;
 
-            if (DUI == true)
-            { baseQuote = (int)(baseQuote * 1.25); }
+            if (table.DUI == true)
+            { table.Quote = table.Quote * 1.25M; }
 
-
-            if (CoverageType == true)
-            { baseQuote = (int)(baseQuote * 1.50); }
+            
+            if (table.CoverageType == true)
+            { table.Quote = table.Quote * 1.5M; }
 
 
             if (ModelState.IsValid)
@@ -96,6 +95,8 @@ namespace CarInsurance.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
+
+
 
             return View(table);
         }
