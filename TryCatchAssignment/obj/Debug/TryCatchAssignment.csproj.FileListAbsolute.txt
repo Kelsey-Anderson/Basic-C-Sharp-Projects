@@ -1,7 +1,0 @@
-C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\TryCatchAssignment\bin\Debug\TryCatchAssignment.exe.config
-C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\TryCatchAssignment\bin\Debug\TryCatchAssignment.exe
-C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\TryCatchAssignment\bin\Debug\TryCatchAssignment.pdb
-C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\TryCatchAssignment\obj\Debug\TryCatchAssignment.csproj.AssemblyReference.cache
-C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\TryCatchAssignment\obj\Debug\TryCatchAssignment.csproj.CoreCompileInputs.cache
-C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\TryCatchAssignment\obj\Debug\TryCatchAssignment.exe
-C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\TryCatchAssignment\obj\Debug\TryCatchAssignment.pdb

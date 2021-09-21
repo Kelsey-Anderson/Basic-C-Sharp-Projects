@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\15419\\Documents\\GitHub\\Basic-C-Sharp-Projects\\ConsoleAPPsignment1\\ConsoleAPPsignment1.csproj": {}
+    "C:\\Users\\15419\\Desktop\\AllTheCSharp\\ConsoleAPPsignment1\\ConsoleAPPsignment1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\15419\\Documents\\GitHub\\Basic-C-Sharp-Projects\\ConsoleAPPsignment1\\ConsoleAPPsignment1.csproj": {
+    "C:\\Users\\15419\\Desktop\\AllTheCSharp\\ConsoleAPPsignment1\\ConsoleAPPsignment1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\15419\\Documents\\GitHub\\Basic-C-Sharp-Projects\\ConsoleAPPsignment1\\ConsoleAPPsignment1.csproj",
+        "projectUniqueName": "C:\\Users\\15419\\Desktop\\AllTheCSharp\\ConsoleAPPsignment1\\ConsoleAPPsignment1.csproj",
         "projectName": "ConsoleAPPsignment1",
-        "projectPath": "C:\\Users\\15419\\Documents\\GitHub\\Basic-C-Sharp-Projects\\ConsoleAPPsignment1\\ConsoleAPPsignment1.csproj",
+        "projectPath": "C:\\Users\\15419\\Desktop\\AllTheCSharp\\ConsoleAPPsignment1\\ConsoleAPPsignment1.csproj",
         "packagesPath": "C:\\Users\\15419\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\15419\\Documents\\GitHub\\Basic-C-Sharp-Projects\\ConsoleAPPsignment1\\obj\\",
+        "outputPath": "C:\\Users\\15419\\Desktop\\AllTheCSharp\\ConsoleAPPsignment1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

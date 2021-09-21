@@ -11,3 +11,17 @@ C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DaysOfTheWeek\obj\Debug\n
 C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DaysOfTheWeek\obj\Debug\netcoreapp3.1\DaysOfTheWeek.dll
 C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DaysOfTheWeek\obj\Debug\netcoreapp3.1\DaysOfTheWeek.pdb
 C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\DaysOfTheWeek\obj\Debug\netcoreapp3.1\DaysOfTheWeek.genruntimeconfig.cache
+C:\Users\15419\Desktop\AllTheCSharp\DaysOfTheWeek\bin\Debug\netcoreapp3.1\DaysOfTheWeek.exe
+C:\Users\15419\Desktop\AllTheCSharp\DaysOfTheWeek\bin\Debug\netcoreapp3.1\DaysOfTheWeek.deps.json
+C:\Users\15419\Desktop\AllTheCSharp\DaysOfTheWeek\bin\Debug\netcoreapp3.1\DaysOfTheWeek.runtimeconfig.json
+C:\Users\15419\Desktop\AllTheCSharp\DaysOfTheWeek\bin\Debug\netcoreapp3.1\DaysOfTheWeek.runtimeconfig.dev.json
+C:\Users\15419\Desktop\AllTheCSharp\DaysOfTheWeek\bin\Debug\netcoreapp3.1\DaysOfTheWeek.dll
+C:\Users\15419\Desktop\AllTheCSharp\DaysOfTheWeek\bin\Debug\netcoreapp3.1\DaysOfTheWeek.pdb
+C:\Users\15419\Desktop\AllTheCSharp\DaysOfTheWeek\obj\Debug\netcoreapp3.1\DaysOfTheWeek.csproj.AssemblyReference.cache
+C:\Users\15419\Desktop\AllTheCSharp\DaysOfTheWeek\obj\Debug\netcoreapp3.1\DaysOfTheWeek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\15419\Desktop\AllTheCSharp\DaysOfTheWeek\obj\Debug\netcoreapp3.1\DaysOfTheWeek.AssemblyInfoInputs.cache
+C:\Users\15419\Desktop\AllTheCSharp\DaysOfTheWeek\obj\Debug\netcoreapp3.1\DaysOfTheWeek.AssemblyInfo.cs
+C:\Users\15419\Desktop\AllTheCSharp\DaysOfTheWeek\obj\Debug\netcoreapp3.1\DaysOfTheWeek.csproj.CoreCompileInputs.cache
+C:\Users\15419\Desktop\AllTheCSharp\DaysOfTheWeek\obj\Debug\netcoreapp3.1\DaysOfTheWeek.dll
+C:\Users\15419\Desktop\AllTheCSharp\DaysOfTheWeek\obj\Debug\netcoreapp3.1\DaysOfTheWeek.pdb
+C:\Users\15419\Desktop\AllTheCSharp\DaysOfTheWeek\obj\Debug\netcoreapp3.1\DaysOfTheWeek.genruntimeconfig.cache

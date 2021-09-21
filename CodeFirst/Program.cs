@@ -12,7 +12,7 @@ namespace CodeFirst
         {
             using (var ctx = new SchoolContext())
             {
-                var stud = new Student() { StudentName = "Bill" };
+                var stud = new Student() { StudentName = "BILLY" };
                 ctx.Students.Add(stud);
                 ctx.SaveChanges();
             }

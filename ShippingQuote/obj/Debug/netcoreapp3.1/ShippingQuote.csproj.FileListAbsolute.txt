@@ -11,3 +11,17 @@ C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ShippingQuote\obj\Debug\n
 C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.dll
 C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.pdb
 C:\Users\15419\Documents\GitHub\Basic-C-Sharp-Projects\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.genruntimeconfig.cache
+C:\Users\15419\Desktop\AllTheCSharp\ShippingQuote\bin\Debug\netcoreapp3.1\ShippingQuote.exe
+C:\Users\15419\Desktop\AllTheCSharp\ShippingQuote\bin\Debug\netcoreapp3.1\ShippingQuote.deps.json
+C:\Users\15419\Desktop\AllTheCSharp\ShippingQuote\bin\Debug\netcoreapp3.1\ShippingQuote.runtimeconfig.json
+C:\Users\15419\Desktop\AllTheCSharp\ShippingQuote\bin\Debug\netcoreapp3.1\ShippingQuote.runtimeconfig.dev.json
+C:\Users\15419\Desktop\AllTheCSharp\ShippingQuote\bin\Debug\netcoreapp3.1\ShippingQuote.dll
+C:\Users\15419\Desktop\AllTheCSharp\ShippingQuote\bin\Debug\netcoreapp3.1\ShippingQuote.pdb
+C:\Users\15419\Desktop\AllTheCSharp\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.csproj.AssemblyReference.cache
+C:\Users\15419\Desktop\AllTheCSharp\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\15419\Desktop\AllTheCSharp\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.AssemblyInfoInputs.cache
+C:\Users\15419\Desktop\AllTheCSharp\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.AssemblyInfo.cs
+C:\Users\15419\Desktop\AllTheCSharp\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.csproj.CoreCompileInputs.cache
+C:\Users\15419\Desktop\AllTheCSharp\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.dll
+C:\Users\15419\Desktop\AllTheCSharp\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.pdb
+C:\Users\15419\Desktop\AllTheCSharp\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.genruntimeconfig.cache
